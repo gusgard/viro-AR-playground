@@ -28,8 +28,11 @@ var sharedProps = {
 
 // Sets the default scene you want for AR and VR
 // var InitialARScene = require('./js/HelloWorldSceneAR');
-var InitialARScene = require('./js/snapchat/ObjectScene.js');
 var InitialVRScene = require('./js/HelloWorldScene');
+
+
+// const InitialARScene = require('./js/object3d/ObjectScene.js');
+const InitialARScene = require('./js/portal/PortalScene.js');
 
 var UNSET = 'UNSET';
 var VR_NAVIGATOR_TYPE = 'VR';
